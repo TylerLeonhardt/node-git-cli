@@ -17,15 +17,16 @@ it uses commander.js and colors as dependencies to aid with easy options parsing
     
 * install the dependencies
 
-            npm install
+	cd node-cli-boilerplate
+	npm install
     
 * make the bin file executable
 
-            chmod u+x node-cli-boilerplate/bin/cli
+            chmod u+x bin/cli
     
 * run the boilerplate with
 
-            cli
+            ./bin/cli
     
 * start hacking!
 
