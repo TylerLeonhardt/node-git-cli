@@ -1,1 +1,1 @@
-module.exports = require('./lib/sike.js');
+module.exports = require('./lib/cli.js');
