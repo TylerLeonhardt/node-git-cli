@@ -7,7 +7,7 @@ it sets you up with a simple node app that basically acts like `echo`. You input
 
 mocha is also included with a simple unit test set up for the print function. You can run this with `make test`.
 
-_uses gulp.js to convert coffeescript src but this isn't intrusive and you can just work with the javascript source._
+*note:_uses gulp.js to convert coffeescript src but this isn't intrusive and you can just work with the javascript source._
 
 ###to get up and running
 
