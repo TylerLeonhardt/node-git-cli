@@ -15,8 +15,11 @@ program.on "--help", ->
 
 program.parse process.argv
 
-try
-	cli.print
-		message: program.message
-catch err
-	console.log "[", "node-cli-boilerplate".white, "]", err.toString().red
+if process.argv.length is 2
+	program.help()
+else
+	try
+		cli.print
+			message: program.message
+	catch err
+		console.log "[", "node-cli-boilerplate".white, "]", err.toString().red
