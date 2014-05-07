@@ -29,6 +29,9 @@ it uses commander.js and colors as dependencies to aid with easy options parsing
             ./bin/cli
     
 * start hacking!
+* run tests with
+
+	    make test
 
 
 ###any problems?
