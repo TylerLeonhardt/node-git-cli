@@ -13,25 +13,25 @@ it uses commander.js and colors as dependencies to aid with easy options parsing
 
 * clone the repo
 
-            git clone https://github.com/jh3y/node-cli-boilerplate.git
+		git clone https://github.com/jh3y/node-cli-boilerplate.git
     
 * install the dependencies
 
-	cd node-cli-boilerplate
-	npm install
+		cd node-cli-boilerplate
+		npm install
     
 * make the bin file executable
 
-            chmod u+x bin/cli
+		chmod u+x bin/cli
     
 * run the boilerplate with
 
-            ./bin/cli
+		./bin/cli
     
 * start hacking!
 * run tests with
 
-	    make test
+		make test
 
 
 ###any problems?
